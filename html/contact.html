@@ -1,0 +1,117 @@
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    
+    </head>
+    <body>
+     <section class="sub-header">
+         <nav>
+             <a href="index.html" ><img src="../css/photos/logo.png"></a>
+             <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+             <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+             </ul>
+         </div>
+         <i class="fa fa-bars"  onclick="showMenu()"></i>
+         </nav>
+        
+            <h1>Contact Us</h1>
+         
+            
+        </section>
+     
+       <section class="location ">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3436.40292642234!2d31.01343086460586!3d30.537918202047557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7d65cacb4c90b%3A0x66650e4cf7303094!2sAli%20Abou%20Ghaia%2C%20Qism%20Shebeen%20El-Kom%2C%20Shibin%20el%20Kom%2C%20Menofia%20Governorate!5e0!3m2!1sen!2seg!4v1619805986520!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+        </section>
+       
+        <section class="contact-us">
+            <div class="row">
+            
+                <div class="contact-col">
+                    <div>
+                <i class="fa fa-home"></i>
+                    <span>
+                    <h5>XYZ-Road ,ABC Building</h5>
+                         <p>Egypt,Shpeen,In</p>
+                    </span>
+                
+                </div>
+                      <div>
+                <i class="fa fa-phone"></i>
+                    <span>
+                    <h5>+201099194881</h5>
+                         <p>Monday to Saturday 10AM to 10PM</p>
+                        
+                    </span>
+                
+                </div>
+                    <div>
+                <i class="fa fa-envelope-o"></i>
+                    <span>
+                    <h5>+xyz@mail.com</h5>
+                         <p>Email Us Your Query</p>
+                        
+                    </span>
+                
+                </div>
+                </div>
+                <div class="contact-col">
+                    <form>
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <input type="text" placeholder="Enter Your Subject" required>
+                        <textarea rows="8" placeholder="Enter Your Massage"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+                
+                </div>
+                
+            </div>
+        
+        
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        <section class="footer">
+            <h4>About US</h4>
+            <p>s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <div class="icons">
+             <i class="fa fa-facebook"></i>
+             <i class="fa fa-twitter"></i>
+             <i class="fa fa-instagram"></i>
+             <i class="fa fa-linkedin"></i>
+            
+            
+            </div>
+        </section>
+        <script>
+        
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+               
+                navLinks.style.transition="2s";
+                
+            }
+            function hideMenu(){
+                            navLinks.style.right="-200";
+  
+                 navLinks.style.transition="2s";
+                        }
+        </script>
+    </body>
+</html>
